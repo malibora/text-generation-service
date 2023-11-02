@@ -22,7 +22,7 @@ spec:
               mountPath: /data
           env:
             - name: HUGGING_FACE_HUB_TOKEN
-              value: "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"
+              value: "<your-token>"
           args:
             - "--max-input-length=3900"
             - "--max-total-tokens=4096"
